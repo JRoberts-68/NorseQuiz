@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    border-radius: 1.5%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-transform: uppercase;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.compass{
+    max-width: 10em;
+}
+
+
+.header li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 1em;
+    list-style: none;
+}
+
+.quizBorder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border: .2em solid black;
+    background: url(Images/Forrest.jpg) fixed;
+    color: cornsilk;
+}
+
+.start
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    border: 0.2em solid black;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.photos {
+    margin-bottom: 0.5em;
+    width: 90%;
+    max-width: 240px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 3em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: .1em solid whitesmoke;
+    background-color: black;
+    color: burlywood;
+}
+
+h1,
+h3,
+legend {
+    margin-bottom: 0.5em;
+}
+
+.button:hover,
+.button:active {
+    background-color: cornsilk;
+    color: black;
+} 
+
+.final{
+    display: block;
+}
+
+@media only screen and (min-width: 320px) {
+    .compass {
+      width: 40%;
+    }
+
+    .quizBorder{
+        width: 85%;
+        height: 30em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        padding-bottom: .5em;
+        padding-top: .5em;
+    }
+
+    .box{
+        height: 85%;
+        width: 85%;
+    }
+
+    .photos{
+        width: 80%;
+    }
+
+    .button {
+        margin-top: 0.5em;
+        font-size: 1em;
+        height: 2.5em;
+        width: 8em;
+    
+    }
+
+    .header li {
+        font-size: 1em;
+    }
+
+    h1,
+    h3,
+    legend {
+        font-size: 1em;
+    }
+
+    .trackerBar{
+        font-size: 1em;
+        margin: .1em;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .quizBorder{
+        height: 32em;
+        width: 30em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    .box {
+        width: 85%;
+        height: 98%;
+    }
+
+    .button {
+        margin-top: 1em;
+        font-size: 1em;
+        width: 10em;
+        height: 2.5em;
+    }
+
+    h1,
+    h3,
+    legend {
+        font-size: 1em;
+    }
+
+    .trackerBar{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 800px) {  
+    .header li {
+      margin: 1em;
+      font-size: 1.3em;
+    }
+
+    .quizBorder{
+        height: 38em;
+        width: 35em;
+    }
+
+    .box {
+        width: 85%;
+        height: 95%;
+    }
+    
+    h1,
+    h3,
+    legend {
+        font-size: 1.3em;
+    }
+
+    .trackerBar{
+        font-size: 1em;
+    }
+
+    .button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 12em;
+        font-size: 1.2em;
+    }
+}
